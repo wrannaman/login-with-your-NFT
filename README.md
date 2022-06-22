@@ -5,6 +5,8 @@
 Building an auth system to allow users to log in using an NFT is a straighforward process.
 In many ways it's simpler than dealing with JWTs.
 
+The repo is a nextjs app that connects to a metamask wallet connected to Goerli test net or the Ethereum Mainnet.
+
 **Read the full post [here](https://saasdeals.io/nft-login)**
 
 # Environment variables.
@@ -24,4 +26,4 @@ npm run dev
 
 ## NPM Package
 
-Additionally, here is a [free React HOC to implement NFT login](https://www.npmjs.com/package/nft-login)
+Additionally, here is a [React HOC to implement NFT login](https://www.npmjs.com/package/nft-login)
