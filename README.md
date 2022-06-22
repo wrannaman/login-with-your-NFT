@@ -1,6 +1,6 @@
 # Login With NFTs
 
-![example](./demo.mp4)
+![example](./demo.gif)
 
 Building an auth system to allow users to log in using an NFT is a straighforward process.
 In many ways it's simpler than dealing with JWTs.
