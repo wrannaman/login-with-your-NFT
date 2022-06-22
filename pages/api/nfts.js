@@ -28,7 +28,6 @@ const handler = async (req, res) => {
     const pubKey = ethUtil.ecrecover(ethUtil.toBuffer(nonce), v, r, s)
     const addrBuf = ethUtil.pubToAddress(pubKey)
     const addr = ethUtil.bufferToHex(addrBuf)
-    console.log("~ addr", addr)
 
     // fetch the nfts
     const _nfts = await web3.alchemy.getNfts({
