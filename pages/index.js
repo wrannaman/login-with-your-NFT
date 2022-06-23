@@ -27,7 +27,6 @@ class NFTLogin extends Component {
   }
 
   connectWallet = async () => {
-    console.log('connect');
     if (!ethereum) return console.error('Please install metamask')
     try {
       const connected = await ethereum.request({ method: 'eth_requestAccounts' })
