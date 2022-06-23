@@ -1,6 +1,6 @@
 # Login With NFTs
 
-![example](./demo.gif)
+![example](./public/demo.gif)
 
 Building an auth system to allow users to log in using an NFT is a straighforward process.
 In many ways it's simpler than dealing with JWTs.
@@ -21,6 +21,7 @@ MAINNET_ALCHEMY_API_URL = "https://eth-mainnet.alchemyapi.io/v2/xxx"
 # To Run
 
 ```bash
+# will start up on localhost:3000
 npm run dev
 ```
 
